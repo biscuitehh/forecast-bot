@@ -1,0 +1,18 @@
+{
+  "name": "forecast-bot",
+  "version": "1.0.0",
+  "description": "Bot that retrieves the weather via the Forecast.io API.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Thomas",
+  "license": "MIT",
+  "dependencies": {
+    "botkit": "^0.1.1",
+    "forecastio": "^1.0.1",
+    "gizoogle": "0.0.6",
+    "node-geocoder": "^3.9.1"
+  }
+}
